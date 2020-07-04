@@ -31,40 +31,30 @@
             <!--                </div>-->
             <!--            </li>-->
         </ul>
-
-        <!--        -->
-        <!--        <form class="form-inline my-2 my-lg-0">-->
-        <!--            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">-->
-        <!--            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
-        <!--        </form>-->
+        
 
 
-
-        <!--            THIS BELOW IS HOW YOU DO THE LOGIN/LOGOUT ADDING SPRING SECURITY- THIS SHOULD REPLACE
-              WHAT I HAVE BELOW-->
-        <!--            <li class="nav-item" sec:authorize="!isAuthenticated()">-->
-        <!--                <a class="nav-link" href="/login">Login</a>-->
-        <!--            </li>-->
-        <!--            <li sec:authorize="isAuthenticated()">-->
-        <!--                <span th:text="${#authentication.principal.username}"/>-->
-        <!--            </li>-->
-        <!--            <li class="nav-item" sec:authorize="isAuthenticated()">-->
-        <!--                <form th:action="@{/logout}" th:method="post">-->
-        <!--                    <button class="btn-link btn" style="margin-top: 8px">Logout</button>-->
-        <!--                </form>-->
-        <!--            </li>-->
-        <form th:action="@{/sign-up}" th:method="get">
-            <button class="btn-link btn" style="margin-top: 8px">Register</button>
-        </form>
-        <form th:action="@{/login}" th:method="get">
-            <button class="btn-link btn" style="margin-top: 8px">Login</button>
-        </form>
-        <form th:action="@{/logout}" th:method="post">
-            <button class="btn-link btn" style="margin-top: 8px">Logout</button>
-        </form>
     </div>
 </nav>
 
+
+<ul class="nav justify-content-end">
+    <li class="nav-item">
+        <a class="nav-link active">HOME</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link">ABOUT ME</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link">PORTFOLIO</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link">RESUME</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link">CONTACT</a>
+    </li>
+</ul>
 
 
 </body>
