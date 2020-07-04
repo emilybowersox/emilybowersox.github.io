@@ -1,0 +1,36 @@
+
+#cloud-pic {
+    display: block;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    width: 100%;
+    opacity: 0.4;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 3em auto 3em auto;
+    background-color: white;
+    width: fit-content;
+    padding: 1em;
+}
+
+#name-header {
+    margin: 3em auto auto auto;
+    font-size: 4em;
+}
+
+#job-header {
+
+}
+
+#enter-button {
+
+}
+
+
+
